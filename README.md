@@ -1,6 +1,24 @@
 # Haskell Tutorial (In Progress)
 > My record with studying [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters); will be a Haskell Tutorial in future
 
+
+## Chapter
+
+1. Introduction
+2. Starting Out
+3. Types and Typeclasses
+4. Syntax in Functions
+5. Recursion
+6. Higer Order Functions
+7. Module
+8. Making Our Own Types and Typeclasses
+9. Input and Output
+10. Functionally Solving Problems
+11. Functiors, Applicative Functors and Monoids
+12. A Fistful of Monads
+13. For a Few Monads More
+14. Zippers
+
 ## Installation
 
 ### Linux and macOS
