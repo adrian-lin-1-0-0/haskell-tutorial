@@ -1,4 +1,5 @@
-# Haskell Tutorial
+# Haskell Tutorial (In Progress)
+> My record with studying [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters); will be a Haskell Tutorial in future
 
 ## Installation
 
@@ -22,7 +23,7 @@ main = do
 
 ### GHC
 
-You can now compile ith with `ghc ` to produce an executable .
+You can now compile ith with `ghc` to produce an executable .
 
 ```sh
 $ ghc hello.hs
