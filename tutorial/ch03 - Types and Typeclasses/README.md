@@ -1,4 +1,4 @@
-# Tpyes and Typeclasses
+# Types and Typeclasses
 
 ## Class
 
