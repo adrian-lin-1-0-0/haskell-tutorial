@@ -29,3 +29,16 @@ ghci> zipWith' (*) (replicate 5 2) [1..]
 ghci> zipWith' (zipWith' (*)) [[1,2,3],[3,5,6],[2,3,4]] [[3,2,2],[3,4,5],[5,4,3]]  
 [[3,4,6],[9,20,30],[10,12,12]]
 ```
+
+### Point free style
+
+```haskell
+fn x = ceiling (negate (tan (cos (max 50 x))))
+```
+
+=>
+
+```haskell
+fn = ceiling . negate . tan . cos . max 50
+```
+
