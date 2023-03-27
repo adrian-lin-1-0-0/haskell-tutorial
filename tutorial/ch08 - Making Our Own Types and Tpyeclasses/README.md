@@ -28,3 +28,10 @@ data Car a b c = Car
     year :: c
   }
 ```
+
+### Derived instances
+
+- Show
+- Read
+
+### Type synonyms
