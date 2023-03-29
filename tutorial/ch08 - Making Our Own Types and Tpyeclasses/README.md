@@ -35,3 +35,24 @@ data Car a b c = Car
 - Read
 
 ### Type synonyms
+
+```haskell
+data Either a b = Left a | Right b deriving (Eq, Ord, Read, Show)
+```
+
+### Recursive data structures
+
+```haskell
+data List a = Empty | Cons a (List a) deriving (Show, Read, Eq, Ord)
+```
+
+```
+ghci> Empty
+Empty
+ghci> 5 `Cons` Empty
+Cons 5 Empty
+ghci> 4 `Cons` (5 `Cons` Empty)
+Cons 4 (Cons 5 Empty)
+ghci> 3 `Cons` (4 `Cons` (5 `Cons` Empty))
+Cons 3 (Cons 4 (Cons 5 Empty))
+```
