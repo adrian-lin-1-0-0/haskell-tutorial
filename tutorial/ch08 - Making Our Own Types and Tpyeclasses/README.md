@@ -56,3 +56,13 @@ Cons 4 (Cons 5 Empty)
 ghci> 3 `Cons` (4 `Cons` (5 `Cons` Empty))
 Cons 3 (Cons 4 (Cons 5 Empty))
 ```
+
+### Functor typeclass
+
+```haskell
+class Functor f where
+    fmap :: (a -> b) -> f a -> f b
+
+instance Functor [] where
+    fmap = map
+```
